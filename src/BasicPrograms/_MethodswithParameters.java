@@ -1,7 +1,7 @@
 package BasicPrograms;
 
 public class _MethodswithParameters {
-    static void add (int a, int b){
+    static void add (int a,int b){
         int x = a-b;
         System.out.println("The subtraction of 2 numbers is "+x);
     }
