@@ -1,5 +1,48 @@
 package BasicPrograms;
 
+class capgemini
+{
+    void display(){
+        System.out.println("Applied successfully");
+    }
+}
+
+class student1{
+    static void apply(capgemini c1){
+        c1.display();
+    }
+}
+
+class student2{
+    static void apply(capgemini c2){
+        c2.display();
+    }
+}
+
+class _PBR_bwClasses_example{
+    public static void main(String[] args) {
+        capgemini c = new capgemini();
+        student1.apply(c);
+        student2.apply(c);
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 class mysore{
     void tickets(){
         System.out.println("Successfully booked");
@@ -26,3 +69,5 @@ public class _PBR_bwClasses_example {
         passenger2.book(m);
     }
 }
+
+ */
