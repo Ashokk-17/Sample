@@ -5,7 +5,7 @@ class student1 {
     String name;
     int age;
 
-    student1(String name,int age){
+    student1(String name,int age){ //this is constructor,constructor name and class name should always be same
         this.name = name;
         this.age = age;
     }
