@@ -20,10 +20,11 @@ public class _IsEmpty_Vector {
 
         Vector tempv = new Vector<>();
         tempv.clear();
-        System.out.println("After clear "+tempv);
+        System.out.println("After clear the total values are "+tempv);
         System.out.println(v.size());
         System.out.println("Does the vector contains 'red' "+v.contains("red"));
         System.out.println("Is the vector is empty? "+v.isEmpty() );
+        System.out.println("The capacity of the vector is(default size is 10) "+v.capacity());
 
 
 
